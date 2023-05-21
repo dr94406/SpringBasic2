@@ -1,12 +1,9 @@
 package hello.core.xml;
 
 import hello.core.member.MemberService;
-import hello.core.member.MemberServiceTest;
 import org.junit.jupiter.api.Test;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.GenericApplicationContext;
 import org.springframework.context.support.GenericXmlApplicationContext;
-import org.springframework.test.context.support.GenericXmlContextLoader;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
